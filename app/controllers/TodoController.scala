@@ -15,12 +15,11 @@ class TodoController @Inject() extends Controller {
     Ok
   }
 
-  def update = Action {
+  def update(id:Long) = Action {
     Ok
   }
 
-  def destroy = Action {
+  def destroy(id:Long) = Action {
     Ok
   }
-
 }
